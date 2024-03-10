@@ -19,7 +19,7 @@ main{flex-grow: 1;
     position: absolute;
     transform: translateY(240px);
     box-shadow: 0px 0px 5.2px 2px #ffffff;
-    padding: 3px;
+    padding: 5px;
      
 }
 .button2{
@@ -32,9 +32,9 @@ main{flex-grow: 1;
         width: 109px;
         height: 28px;
         position: absolute;        
-        translate: 209px 1695px;
+        translate: 207px 1695px;
         box-shadow: 0px 0px 5.2px 2px #ffffff;
-        padding: 3px;
+        padding: 5px;
         
          
 }
@@ -50,7 +50,7 @@ main{flex-grow: 1;
     position: absolute;
     transform: translateY(3204px);
     box-shadow: 0px 0px 5.2px 2px #ffffff;
-    padding: 3px;
+    padding: 5px;
      
 }    
 .background{
@@ -109,6 +109,4 @@ a{
     
     
 }
-#pag2{
-    
-}   
+ 
