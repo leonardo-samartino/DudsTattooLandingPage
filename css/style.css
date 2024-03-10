@@ -2,11 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 html{scroll-behavior: smooth;}
 
+a{
+    text-decoration: none;
+    color: white;
+      
+}
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 110px;
+    column-gap: 130px;
     margin-top: 25px;     
 }
 
@@ -35,7 +40,7 @@ main{
 }
 
 .logo{
-    transform: translateY(-0px);
+    transform: translateY(-145px);
     width: 1021px;
     height: 475px;
     
@@ -47,7 +52,7 @@ main{
     width: 234px;
     height: 70px;
     position: absolute;
-    transform: translateY(325px);
+    transform: translateY(195px);
     box-shadow: 0px 0px 5.2px 2px #ffffff;
     
      
@@ -133,17 +138,125 @@ main{
 
 
  
-a{
-    text-decoration: none;
-    color: white;
-      
-}
 
 
-@media(max-width:834px){
-    .background{
-        width: 100vh;
+
+@media(max-width:430px){
+
+      nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 45px;
+        margin-top: 5px;     
     }
+    
+    .navbar{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 10px;   
+    }
+         
+    .logo{
+        transform: translateY(-260px);
+        width: 270px;
+        height: 125px;
+        
+    }
+    
+    .buttonBox{
+        display: flex;
+        border: solid 1px white;
+        width: 92px;
+        height: 22px;
+        position: absolute;
+        transform: translateY(-180px);
+        box-shadow: 0px 0px 5.2px 2px #ffffff;
+        
+         
+    }
+    
+    .button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 5px;
+        width: 76px;
+        height: 11px;
+        text-align: center;       
+        color: white;
+        padding: 5px;
+    }
+    
+    .quemsoueu{
+        
+        width: 166px;
+        height: 241px;
+        display: flex;
+        flex-direction: column;
+        translate: -105px -30px;
+        color: #ffffff;
+        font-family: "Montserrat", sans-serif;
+        position: absolute;
+    }
+    
+    .titulo{
+        text-align: center;
+        font-weight: 300;
+        font-size: 12px; 
+    }
+    
+    .apresentacao{
+        text-align: justify;
+        font-weight: 200;
+        font-size: 8px; 
+    }
+    .buttonBox2{
+        display: flex;
+        border: solid 1px white;
+        width: 70px;
+        height: 16px;
+        position: absolute;        
+        translate: 105px 65px;
+        box-shadow: 0px 0px 5.2px 2px #ffffff;
+    }
+    .button2,.button3{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 5px;
+            text-align: center;   
+            color: white;
+            padding: 3px;
+           
+            
+            
+            
+             
+    }
+    
+    .buttonBox3{
+        
+        display: flex;
+        border: solid 1px white;
+        width: 70px;
+        height: 16px;
+        position: absolute;        
+        translate: 105px 65px;
+        box-shadow: 0px 0px 5.2px 2px #ffffff;
+         
+    } 
+    
+    .backgroundMobile{
+        position: absolute;
+        width: 100%;
+        height: 100;
+        top:0;
+        right: 0;
+        left: 0;
+        bottom:0;
+        z-index: -1;
+    }
+      
+
     
     
 }
