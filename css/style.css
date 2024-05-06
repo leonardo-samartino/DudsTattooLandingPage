@@ -109,6 +109,7 @@ nav{
     height: 100vh;
     display: flex; 
 }
+
 /* Container do feed do instagram */
 .feedContainer{
     display: flex;
@@ -118,6 +119,7 @@ nav{
     align-items: center;
     width: 100vw;
 }
+
 
 @media only screen and (max-width: 414px){
 html{
@@ -179,10 +181,6 @@ nav{
     transform: scale(0.9);
 }
 }
-
-
-
-
  
 
 
