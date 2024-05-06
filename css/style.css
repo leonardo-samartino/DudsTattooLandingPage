@@ -112,6 +112,8 @@ nav{
 /* Container do feed do instagram */
 .feedContainer{
     display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     width: 100vw;
