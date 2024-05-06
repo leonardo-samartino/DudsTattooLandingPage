@@ -126,6 +126,7 @@ html{
     font-size: 18px;
 }
 nav{
+    margin-top: 10px;
     height: 40px;
     column-gap: 30px;
 }
