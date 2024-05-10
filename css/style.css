@@ -8,6 +8,7 @@ html{scroll-behavior: smooth;}
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 html{
     font-size: 20px; 
@@ -62,9 +63,12 @@ nav{
 }
 
 .logo{
-    margin: 100px 0px;
+    margin: 300px 0px;
     width: 606px;
     height: 282px;
+    border: solid 1px red;
+    transform: scale(1.6);
+   
     
 }
 /* Section Quem sou eu */
@@ -96,6 +100,7 @@ nav{
     height: 650px;
     font-weight: 300;
     text-align: justify;
+    word-spacing: ;
     line-height: 1.3;
     letter-spacing: 2px;
     font-size: 24px;  
@@ -109,17 +114,79 @@ nav{
     height: 100vh;
     display: flex; 
 }
+
 /* Container do feed do instagram */
 .feedContainer{
     display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     width: 100vw;
 }
 
 
+@media only screen and (max-width: 414px){
+html{
+    font-size: 18px;
+}
+nav{
+    
+    height: 50px;
+    column-gap: 30px;
+}
+/* Section Home */
+.home{
+    background-image: url(../imgs/Mbg1.png);
+    background-size: 105%;     
+}
+/* Botôes */
+.botaoAgendar{
+    transform: scale(0.75);
+}
+.botaoAgendar:hover{
+    transform: scale(0.9);
+}
 
-
+.logo{
+    margin: 75px 0px;
+    transform: scale(0.65);
+    
+}
+/* Section Quem sou eu */
+.quemsoueu{
+    background-image: url(../imgs/Mbg2.png);
+    background-size: 105%;  
+}
+/* Container de texto */
+.textContainer{  
+    width: 100vw;    
+    justify-content: end;   
+    padding-bottom: 20px;      
+}
+/* QUEM SOU EU */
+.textContainer h1{    
+    font-size: 25px;
+}
+/* Texto descritivo */
+.textContainer p{
+    width: 350px;
+    height: 400px;
+    font-weight: 300;
+    text-align: justify;    
+    line-height: 1;
+    letter-spacing: 1px;
+    font-size: 18px;  
+}
+/* Section Galeria */
+.galeria{
+    background-image: url(../imgs/Mbg3.png);    
+    
+}
+.instagram-media{
+    transform: scale(0.9);
+}
+}
  
 
 
